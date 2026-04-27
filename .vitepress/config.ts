@@ -10,6 +10,9 @@ export default defineConfig({
   // 部署配置：GitHub Pages 子路径
   base: '/wangwei/',
 
+  // 忽略死链接检查（开发阶段动态生成文章）
+  ignoreDeadLinks: true,
+
   // 主题配置
   themeConfig: {
     // 导航栏
@@ -31,7 +34,7 @@ export default defineConfig({
           text: '安全治理体系',
           items: [
             { text: '栏目概述', link: '/governance' },
-            { text: '企业网络安全体系到底在建设什么', link: '/posts/governance-intro' }
+            { text: '企业网络安全体系建设的五个顶层设计问题', link: '/posts/governance-top5' }
           ]
         }
       ],
@@ -121,5 +124,10 @@ export default defineConfig({
   // Markdown 配置
   markdown: {
     lineNumbers: true
+  },
+
+  // Vite 配置
+  vite: {
+    // 公共配置
   }
 })

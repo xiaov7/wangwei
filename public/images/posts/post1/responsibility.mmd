@@ -1,0 +1,22 @@
+flowchart TB
+    subgraph 传统模式["❌ 职责分散模式"]
+        A[漏洞发现] --> B{谁负责?}
+        B -->|开发说| C[运维负责]
+        B -->|运维说| D[安全部门负责]
+        B -->|安全说| E[业务部门负责]
+        C --> F[互相推诿]
+        D --> F
+        E --> F
+        F --> G[整改延期<br/>平均90天+]
+    end
+
+    subgraph 统一模式["✅ 统一归口模式"]
+        A2[漏洞发现] --> B2[安全管理部门<br/>统一分级派单]
+        B2 --> C2[明确责任人<br/>设定时限]
+        C2 --> D2[定期督办<br/>升级机制]
+        D2 --> E2[复测验证<br/>台账归档]
+        E2 --> F2[闭环完成<br/>平均35天]
+    end
+
+    style 传统模式 fill:#fdf2f2,stroke:#c0392b,stroke-width:2px
+    style 统一模式 fill:#f0f9f4,stroke:#27ae60,stroke-width:2px

@@ -42,12 +42,29 @@ features:
 
 ## 最新文章
 
-> 博客刚上线，首批文章正在撰写中，敬请期待。
+<div class="post-item">
+  <a href="/wangwei/posts/governance-top5" class="post-title">企业网络安全体系建设，最容易忽视的五个顶层设计问题</a>
+  <div class="post-meta">安全治理体系 · 2025-04-27</div>
+  <div class="post-excerpt">从组织、制度、流程、考核、合规五个维度，拆解企业安全治理顶层设计中的五大常见误区与解决路径。</div>
+</div>
 
-- [企业网络安全体系到底在建设什么](/governance) —— 即将发布
-- [漏洞全生命周期管理，真正难的不是发现而是闭环](/vuln) —— 即将发布
-- [安全项目经理在网络安全体系建设中到底负责什么](/project) —— 即将发布
-- [AI在安全方案编写中，哪些环节最值得先用起来](/ai) —— 即将发布
+<div class="post-item">
+  <a href="/wangwei/vuln" class="post-title">漏洞全生命周期管理，真正难的不是发现而是闭环</a>
+  <div class="post-meta">风险与漏洞闭环 · 即将发布</div>
+  <div class="post-excerpt">漏洞管理不是技术问题，而是治理问题。真正的挑战在于如何建立一套可持续运转的闭环机制。</div>
+</div>
+
+<div class="post-item">
+  <a href="/wangwei/project" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
+  <div class="post-meta">安全项目管理 · 即将发布</div>
+  <div class="post-excerpt">安全项目经理的角色，是连接安全目标与业务现实的桥梁。你需要懂安全，但更需要懂怎么把安全工作推进下去。</div>
+</div>
+
+<div class="post-item">
+  <a href="/wangwei/ai" class="post-title">AI在安全方案编写中，哪些环节最值得先用起来</a>
+  <div class="post-meta">AI赋能安全工作 · 即将发布</div>
+  <div class="post-excerpt">AI不是替代安全从业者，而是把我们从重复性文档工作中解放出来，让我们有更多精力投入到体系设计和落地推进中。</div>
+</div>
 
 ---
 
