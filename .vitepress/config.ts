@@ -24,6 +24,64 @@ export default defineConfig({
       { text: '关于我', link: '/about' }
     ],
 
+    // 左侧边栏：按栏目分组显示文章列表
+    sidebar: {
+      '/governance': [
+        {
+          text: '安全治理体系',
+          items: [
+            { text: '栏目概述', link: '/governance' },
+            { text: '企业网络安全体系到底在建设什么', link: '/posts/governance-intro' }
+          ]
+        }
+      ],
+      '/vuln': [
+        {
+          text: '风险与漏洞闭环',
+          items: [
+            { text: '栏目概述', link: '/vuln' },
+            { text: '漏洞全生命周期管理', link: '/posts/vuln-lifecycle' }
+          ]
+        }
+      ],
+      '/project': [
+        {
+          text: '安全项目管理',
+          items: [
+            { text: '栏目概述', link: '/project' },
+            { text: '安全项目经理的职责', link: '/posts/project-role' }
+          ]
+        }
+      ],
+      '/compliance': [
+        {
+          text: '合规与整改落地',
+          items: [
+            { text: '栏目概述', link: '/compliance' },
+            { text: '等保整改常见问题', link: '/posts/compliance-issue' }
+          ]
+        }
+      ],
+      '/ai': [
+        {
+          text: 'AI赋能安全工作',
+          items: [
+            { text: '栏目概述', link: '/ai' },
+            { text: 'AI辅助方案编写', link: '/posts/ai-writing' }
+          ]
+        }
+      ],
+      '/templates': [
+        {
+          text: '模板与方法论',
+          items: [
+            { text: '栏目概述', link: '/templates' },
+            { text: '漏洞台账模板', link: '/posts/template-vuln' }
+          ]
+        }
+      ]
+    },
+
     // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com' }
@@ -40,9 +98,10 @@ export default defineConfig({
       provider: 'local'
     },
 
-    // 文章目录配置
+    // 文章目录配置（右侧大纲）
     outline: {
-      label: '本页目录'
+      label: '本页目录',
+      level: [2, 3]
     },
 
     // 文档翻页
