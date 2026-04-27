@@ -43,6 +43,12 @@ features:
 ## 最新文章
 
 <div class="post-item">
+  <a href="./posts/project-weekly-report" class="post-title">安全项目周报到底应该怎么写，才能真正推动事情</a>
+  <div class="post-meta">安全项目管理 · 2025-04-27</div>
+  <div class="post-excerpt">从结构设计、重点排序、风险表达和协调动作四个维度，拆解一份安全项目周报怎样才能真正服务推进，而不是只留下记录。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/solution-framework" class="post-title">安全方案编写框架：给管理层看的版本怎么写</a>
   <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
   <div class="post-excerpt">从结构设计、内容比重、表达顺序到AI辅助边界，拆解一份真正适合管理层阅读的安全方案应该怎么写。</div>
@@ -58,12 +64,6 @@ features:
   <a href="./posts/ai-reporting" class="post-title">AI如何帮助安全团队提升周报、汇报与整改跟踪效率</a>
   <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
   <div class="post-excerpt">从周报整理、汇报口径生成到整改跟踪提醒，拆解AI如何在安全团队的日常文字工作中真正发挥提效价值。</div>
-</div>
-
-<div class="post-item">
-  <a href="./posts/governance-last-mile" class="post-title">企业安全治理为什么总是卡在最后一公里</a>
-  <div class="post-meta">安全治理体系 · 2025-04-27</div>
-  <div class="post-excerpt">从责任穿透、流程嵌入、指标牵引到复盘机制，拆解安全治理为什么看起来体系完整，落到执行端却总是失速。</div>
 </div>
 
 ---

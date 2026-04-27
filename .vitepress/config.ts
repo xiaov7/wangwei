@@ -45,6 +45,7 @@ export default defineConfig({
           text: '安全项目管理',
           collapsed: false,
           items: [
+            { text: '安全项目周报到底应该怎么写，才能真正推动事情', link: '/posts/project-weekly-report' },
             { text: '安全项目经理在网络安全体系建设中到底负责什么', link: '/posts/project-manager-role' }
           ]
         },

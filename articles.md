@@ -66,6 +66,12 @@ outline: false
 ## 安全项目管理
 
 <div class="post-item">
+  <a href="./posts/project-weekly-report" class="post-title">安全项目周报到底应该怎么写，才能真正推动事情</a>
+  <div class="post-meta">2025-04-27 · 约4800字</div>
+  <div class="post-excerpt">从结构设计、重点排序、风险表达和协调动作四个维度，拆解一份安全项目周报怎样才能真正服务推进，而不是只留下记录。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/project-manager-role" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
   <div class="post-meta">2025-04-27 · 约5200字</div>
   <div class="post-excerpt">从立项、规划、推进、验收到复盘，拆解安全项目经理在网络安全体系建设中的真实职责、关键能力与常见误区。</div>
