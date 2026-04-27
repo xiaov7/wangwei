@@ -1,0 +1,14 @@
+flowchart TB
+    A[业务部门提交整改结果]
+    B[运维部门汇总并上传]
+    C[跨网交换平台回传外网]
+    D[安全管理部复测验证]
+    E[审计归档与台账关闭]
+
+    A --> B --> C --> D --> E
+
+    style A fill:#f0f9f4,stroke:#27ae60
+    style B fill:#f0f9f4,stroke:#27ae60
+    style C fill:#fef5e7,stroke:#e67e22,stroke-width:2px
+    style D fill:#e8f4f8,stroke:#1e3a5f
+    style E fill:#e8f4f8,stroke:#1e3a5f
