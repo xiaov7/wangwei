@@ -1,21 +1,67 @@
-/* 微调：内容区加宽，减少左右留白 */
+/* 微调：内容区加宽，减少左右留白，全站同步 */
 
 :root {
-  /* 扩大内容区域宽度 */
-  --vp-layout-max-width: 1280px;
+  /* 整体布局最大宽度收紧 */
+  --vp-layout-max-width: 1000px;
 }
 
-/* 首页容器 */
-.VPHome .container {
-  max-width: 1100px;
+/* 导航栏容器收紧 */
+.VPNavBar .container {
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-/* 正文内容区 */
+/* 首页 hero 区域收紧 */
+.VPHero .container {
+  max-width: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* 首页 feature 卡片区域收紧 */
+.VPFeatures .container {
+  max-width: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* feature 卡片间距缩小 */
+.VPFeatures .items {
+  gap: 16px;
+}
+
+.VPFeatures .item {
+  padding: 20px;
+}
+
+/* 正文内容区收紧 */
 .VPContent .content {
-  max-width: 860px;
+  max-width: 820px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* 文档页 */
 .vp-doc {
-  max-width: 860px;
+  max-width: 820px;
+}
+
+/* 页脚收紧 */
+.VPFooter .container {
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* 移动端保留适当边距 */
+@media (max-width: 768px) {
+  .VPNavBar .container,
+  .VPHero .container,
+  .VPFeatures .container,
+  .VPContent .content,
+  .VPFooter .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
