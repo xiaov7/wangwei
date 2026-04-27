@@ -1,13 +1,20 @@
 /* 微调：内容区加宽，减少左右留白 */
 
 :root {
-  /* 扩大内容区域宽度 */
-  --vp-layout-max-width: 1280px;
+  /* 扩大整体布局宽度，让侧边栏更贴近屏幕边缘 */
+  --vp-layout-max-width: 1440px;
 }
 
 /* 首页容器 */
 .VPHome .container {
   max-width: 1100px;
+}
+
+/* 文档页容器：让三栏布局更宽 */
+.VPDoc .container {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* 正文内容区 */
@@ -18,4 +25,19 @@
 /* 文档页 */
 .vp-doc {
   max-width: 860px;
+}
+
+/* 左侧边栏：减少左边距 */
+.VPSidebar {
+  padding-left: 16px;
+}
+
+/* 右侧大纲容器：减少右边距 */
+.VPDocAside {
+  padding-right: 16px;
+}
+
+/* 导航栏也同步加宽 */
+.VPNavBar .container {
+  max-width: 1440px;
 }
