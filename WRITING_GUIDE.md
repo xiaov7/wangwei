@@ -499,6 +499,45 @@
 - 图注需要使用正式报告语气，推荐格式：`图 3：漏洞全生命周期管理流程`
 - 如果一张图需要读者停留超过 3 秒才能看清结构，优先提升原图清晰度与缩放体验，拆分只作为最后手段
 
+### 6.4 站内链接规范
+
+**站内链接必须统一写法，禁止同一项目中同时混用多套规则。**
+
+本项目当前采用 VitePress + GitHub Pages，并设置了 `base: /wangwei/`。这意味着链接写法必须考虑两类场景：Markdown 原生链接与 HTML 自定义锚点。
+
+**规则如下：**
+
+1. **VitePress 配置项中的链接**（如 `nav`、`sidebar`、首页 frontmatter 中的 `link`）
+   - 统一使用根路径写法：`/about`、`/posts/governance-top5`
+
+2. **Markdown 正文中的站内链接**
+   - 统一使用根路径写法：`[标题](/posts/governance-top5)`、`[返回首页](/)`
+
+3. **Markdown 中手写的 HTML `<a href="...">` 链接**
+   - 统一使用相对路径写法：`./posts/governance-top5`、`./project`
+   - 原因：原生 HTML 不会像 Markdown 链接那样自动适配 `base`，直接写死 `/wangwei/...` 不利于后续迁移，直接写 `/posts/...` 在 GitHub Pages 子路径下又容易出错
+
+4. **禁止写死仓库名路径**
+   - 禁止：`/wangwei/posts/xxx`
+   - 原因：仓库名或部署路径一旦变化，这类链接会全部失效
+
+**推荐示例：**
+
+```markdown
+<!-- Markdown 链接 -->
+[查看文章](/posts/governance-top5)
+[返回首页](/)
+
+<!-- HTML 链接 -->
+<a href="./posts/governance-top5" class="post-title">查看文章</a>
+<a href="./project" class="post-title">查看栏目</a>
+```
+
+**检查要求：**
+
+- 首页、文章总览页、栏目页、文章页必须遵循同一套链接规范
+- 发布前搜索全站，确保没有残留 `/wangwei/` 这类写死路径
+
 ---
 
 ## 七、文章元数据
@@ -536,6 +575,7 @@ description: 文章摘要（50字以内）
 - [ ] 是否有核心洞察框高亮金句
 - [ ] 数据是否标注来源或基于合理推演
 - [ ] 文章长度是否在 5000-6500 字之间
+- [ ] 是否遵循站内链接规范，没有写死 `/wangwei/` 路径
 
 ---
 
