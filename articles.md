@@ -44,6 +44,12 @@ outline: false
 ## AI赋能安全工作
 
 <div class="post-item">
+  <a href="./posts/solution-framework" class="post-title">安全方案编写框架：给管理层看的版本怎么写</a>
+  <div class="post-meta">2025-04-27 · 约5000字</div>
+  <div class="post-excerpt">从结构设计、内容比重、表达顺序到AI辅助边界，拆解一份真正适合管理层阅读的安全方案应该怎么写。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/ai-reporting" class="post-title">AI如何帮助安全团队提升周报、汇报与整改跟踪效率</a>
   <div class="post-meta">2025-04-27 · 约5000字</div>
   <div class="post-excerpt">从周报整理、汇报口径生成到整改跟踪提醒，拆解AI如何在安全团队的日常文字工作中真正发挥提效价值。</div>

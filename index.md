@@ -43,6 +43,12 @@ features:
 ## 最新文章
 
 <div class="post-item">
+  <a href="./posts/solution-framework" class="post-title">安全方案编写框架：给管理层看的版本怎么写</a>
+  <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
+  <div class="post-excerpt">从结构设计、内容比重、表达顺序到AI辅助边界，拆解一份真正适合管理层阅读的安全方案应该怎么写。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/vuln-closure" class="post-title">漏洞全生命周期管理，真正难的不是发现而是闭环</a>
   <div class="post-meta">风险与漏洞闭环 · 2025-04-27</div>
   <div class="post-excerpt">从发现、分级、派单、整改、复测到关闭，拆解漏洞管理为什么常常不是死在技术，而是死在组织闭环。</div>
@@ -58,12 +64,6 @@ features:
   <a href="./posts/governance-last-mile" class="post-title">企业安全治理为什么总是卡在最后一公里</a>
   <div class="post-meta">安全治理体系 · 2025-04-27</div>
   <div class="post-excerpt">从责任穿透、流程嵌入、指标牵引到复盘机制，拆解安全治理为什么看起来体系完整，落到执行端却总是失速。</div>
-</div>
-
-<div class="post-item">
-  <a href="./posts/compliance-overcheck" class="post-title">等保整改为什么常常做成过检工程</a>
-  <div class="post-meta">合规与整改落地 · 2025-04-27</div>
-  <div class="post-excerpt">从问题分级、责任落实、机制固化到持续复查，拆解等保整改为何常常停留在“通过检查”，却迟迟没有沉淀成真正的安全能力。</div>
 </div>
 
 ---
