@@ -15,71 +15,59 @@ export default defineConfig({
 
   // 主题配置
   themeConfig: {
-    // 导航栏
+    // 导航栏：只保留三个入口
     nav: [
       { text: '首页', link: '/' },
-      { text: '安全治理体系', link: '/governance' },
-      { text: '风险与漏洞闭环', link: '/vuln' },
-      { text: '安全项目管理', link: '/project' },
-      { text: '合规与整改落地', link: '/compliance' },
-      { text: 'AI赋能安全工作', link: '/ai' },
-      { text: '模板与方法论', link: '/templates' },
+      { text: '文章', link: '/articles' },
       { text: '关于我', link: '/about' }
     ],
 
-    // 左侧边栏：按栏目分组显示文章列表
+    // 左侧边栏：全局树状目录（所有页面都显示）
     sidebar: {
-      '/governance': [
+      '/': [
         {
           text: '安全治理体系',
+          collapsed: false,
           items: [
             { text: '栏目概述', link: '/governance' },
-            { text: '企业网络安全体系建设的五个顶层设计问题', link: '/posts/governance-top5' }
+            { text: '五个顶层设计问题', link: '/posts/governance-top5' }
           ]
-        }
-      ],
-      '/vuln': [
+        },
         {
           text: '风险与漏洞闭环',
+          collapsed: false,
           items: [
             { text: '栏目概述', link: '/vuln' },
-            { text: '离线环境下的漏洞治理', link: '/posts/vuln-offline' }
+            { text: '离线环境漏洞治理', link: '/posts/vuln-offline' }
           ]
-        }
-      ],
-      '/project': [
+        },
         {
           text: '安全项目管理',
+          collapsed: true,
           items: [
-            { text: '栏目概述', link: '/project' },
-            { text: '安全项目经理的职责', link: '/posts/project-role' }
+            { text: '栏目概述', link: '/project' }
           ]
-        }
-      ],
-      '/compliance': [
+        },
         {
           text: '合规与整改落地',
+          collapsed: true,
           items: [
-            { text: '栏目概述', link: '/compliance' },
-            { text: '等保整改常见问题', link: '/posts/compliance-issue' }
+            { text: '栏目概述', link: '/compliance' }
           ]
-        }
-      ],
-      '/ai': [
+        },
         {
           text: 'AI赋能安全工作',
+          collapsed: false,
           items: [
             { text: '栏目概述', link: '/ai' },
-            { text: 'AI写安全方案：能替代多少，不能替代什么', link: '/posts/ai-writing' }
+            { text: 'AI写安全方案', link: '/posts/ai-writing' }
           ]
-        }
-      ],
-      '/templates': [
+        },
         {
           text: '模板与方法论',
+          collapsed: true,
           items: [
-            { text: '栏目概述', link: '/templates' },
-            { text: '漏洞台账模板', link: '/posts/template-vuln' }
+            { text: '栏目概述', link: '/templates' }
           ]
         }
       ]
