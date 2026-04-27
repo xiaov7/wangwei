@@ -29,7 +29,6 @@ export default defineConfig({
           text: '安全治理体系',
           collapsed: false,
           items: [
-            { text: '栏目概述', link: '/governance' },
             { text: '五个顶层设计问题', link: '/posts/governance-top5' }
           ]
         },
@@ -37,38 +36,30 @@ export default defineConfig({
           text: '风险与漏洞闭环',
           collapsed: false,
           items: [
-            { text: '栏目概述', link: '/vuln' },
             { text: '离线环境漏洞治理', link: '/posts/vuln-offline' }
           ]
         },
         {
           text: '安全项目管理',
           collapsed: true,
-          items: [
-            { text: '栏目概述', link: '/project' }
-          ]
+          items: []
         },
         {
           text: '合规与整改落地',
           collapsed: true,
-          items: [
-            { text: '栏目概述', link: '/compliance' }
-          ]
+          items: []
         },
         {
           text: 'AI赋能安全工作',
           collapsed: false,
           items: [
-            { text: '栏目概述', link: '/ai' },
             { text: 'AI写安全方案', link: '/posts/ai-writing' }
           ]
         },
         {
           text: '模板与方法论',
           collapsed: true,
-          items: [
-            { text: '栏目概述', link: '/templates' }
-          ]
+          items: []
         }
       ]
     },
