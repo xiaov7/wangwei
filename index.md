@@ -43,6 +43,12 @@ features:
 ## 最新文章
 
 <div class="post-item">
+  <a href="/wangwei/posts/ai-writing" class="post-title">AI写安全方案：能替代多少，不能替代什么</a>
+  <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
+  <div class="post-excerpt">探索人工智能在安全方案编写中的实际应用场景，明确AI的能力边界与人机协作的最佳模式。</div>
+</div>
+
+<div class="post-item">
   <a href="/wangwei/posts/vuln-offline" class="post-title">离线环境下的漏洞治理：一个被长期低估的系统性风险</a>
   <div class="post-meta">风险与漏洞闭环 · 2025-04-27</div>
   <div class="post-excerpt">聚焦离线环境下的漏洞全生命周期管理，从发现、分级、派单、整改、复测到关闭，建立可持续运转的闭环机制。</div>
@@ -58,12 +64,6 @@ features:
   <a href="/wangwei/project" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
   <div class="post-meta">安全项目管理 · 即将发布</div>
   <div class="post-excerpt">安全项目经理的角色，是连接安全目标与业务现实的桥梁。你需要懂安全，但更需要懂怎么把安全工作推进下去。</div>
-</div>
-
-<div class="post-item">
-  <a href="/wangwei/ai" class="post-title">AI在安全方案编写中，哪些环节最值得先用起来</a>
-  <div class="post-meta">AI赋能安全工作 · 即将发布</div>
-  <div class="post-excerpt">AI不是替代安全从业者，而是把我们从重复性文档工作中解放出来，让我们有更多精力投入到体系设计和落地推进中。</div>
 </div>
 
 ---

@@ -1,0 +1,19 @@
+architecture-beta
+    group ai层[AI 执行层]
+        service l1["L1 框架搭建<br/>AI自动生成方案结构<br/>人：确认框架合理性"]
+        service l2["L2 内容生成<br/>AI填充背景/技术描述<br/>人：提供企业特定信息"]
+    end
+
+    group 人机层[人机协作层]
+        service l3["L3 事实校验<br/>人：核实技术准确性<br/>AI：辅助检索依据"]
+        service l4["L4 内容审核<br/>人：判断业务适用性<br/>AI：检查格式规范"]
+    end
+
+    group 人层[人工决策层]
+        service l5["L5 战略决策<br/>人：确定方案方向<br/>承担最终责任"]
+    end
+
+    l1 --> l2
+    l2 --> l3
+    l3 --> l4
+    l4 --> l5

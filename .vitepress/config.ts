@@ -70,7 +70,7 @@ export default defineConfig({
           text: 'AI赋能安全工作',
           items: [
             { text: '栏目概述', link: '/ai' },
-            { text: 'AI辅助方案编写', link: '/posts/ai-writing' }
+            { text: 'AI写安全方案：能替代多少，不能替代什么', link: '/posts/ai-writing' }
           ]
         }
       ],

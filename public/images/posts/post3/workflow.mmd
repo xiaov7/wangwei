@@ -1,0 +1,24 @@
+flowchart LR
+    A[人定框架] -->|提供需求| B[AI生成初稿]
+    B -->|输出初稿| C[人核事实]
+    C -->|修正指令| D[AI调表述]
+    D -->|输出修订稿| E[人做决策]
+    E -->|确认定稿| F[最终方案]
+    
+    style A fill:#f0f9f4,stroke:#27ae60
+    style C fill:#f0f9f4,stroke:#27ae60
+    style E fill:#f0f9f4,stroke:#27ae60
+    style B fill:#e8f4f8,stroke:#1e3a5f
+    style D fill:#e8f4f8,stroke:#1e3a5f
+    style F fill:#fef9f3,stroke:#e67e22
+    
+    subgraph 人工主导["人工主导环节"]
+        A
+        C
+        E
+    end
+    
+    subgraph AI辅助["AI辅助环节"]
+        B
+        D
+    end
