@@ -1,0 +1,14 @@
+{
+  "name": "wangwei-blog",
+  "version": "1.0.0",
+  "description": "王炜的个人博客 —— 聚焦企业网络安全体系化建设、治理落地与AI提效",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
