@@ -43,7 +43,7 @@ export default defineConfig({
           text: '风险与漏洞闭环',
           items: [
             { text: '栏目概述', link: '/vuln' },
-            { text: '漏洞全生命周期管理', link: '/posts/vuln-lifecycle' }
+            { text: '离线环境下的漏洞治理', link: '/posts/vuln-offline' }
           ]
         }
       ],

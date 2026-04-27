@@ -43,15 +43,15 @@ features:
 ## 最新文章
 
 <div class="post-item">
-  <a href="/wangwei/posts/governance-top5" class="post-title">企业网络安全体系建设，最容易忽视的五个顶层设计问题</a>
-  <div class="post-meta">安全治理体系 · 2025-04-27</div>
-  <div class="post-excerpt">从组织、制度、流程、考核、合规五个维度，拆解企业安全治理顶层设计中的五大常见误区与解决路径。</div>
+  <a href="/wangwei/posts/vuln-offline" class="post-title">离线环境下的漏洞治理：一个被长期低估的系统性风险</a>
+  <div class="post-meta">风险与漏洞闭环 · 2025-04-27</div>
+  <div class="post-excerpt">聚焦离线环境下的漏洞全生命周期管理，从发现、分级、派单、整改、复测到关闭，建立可持续运转的闭环机制。</div>
 </div>
 
 <div class="post-item">
-  <a href="/wangwei/vuln" class="post-title">漏洞全生命周期管理，真正难的不是发现而是闭环</a>
-  <div class="post-meta">风险与漏洞闭环 · 即将发布</div>
-  <div class="post-excerpt">漏洞管理不是技术问题，而是治理问题。真正的挑战在于如何建立一套可持续运转的闭环机制。</div>
+  <a href="/wangwei/posts/governance-top5" class="post-title">企业网络安全体系建设，最容易忽视的五个顶层设计问题</a>
+  <div class="post-meta">安全治理体系 · 2025-04-27</div>
+  <div class="post-excerpt">从组织、制度、流程、考核、合规五个维度，拆解企业安全治理顶层设计中的五大常见误区与解决路径。</div>
 </div>
 
 <div class="post-item">
