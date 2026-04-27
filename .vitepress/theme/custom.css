@@ -552,17 +552,55 @@
 
 .img-modal-container {
   position: relative;
-  max-width: 92vw;
+  width: min(94vw, 1400px);
   max-height: 92vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.img-modal-toolbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.img-modal-btn {
+  min-width: 44px;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.img-modal-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.img-modal-viewport {
+  width: 100%;
+  max-height: 78vh;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+
 .img-modal-content {
-  max-width: 100%;
-  max-height: 82vh;
-  object-fit: contain;
+  display: block;
+  max-width: none;
+  max-height: none;
+  object-fit: unset;
   border-radius: 4px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
@@ -577,9 +615,7 @@
 }
 
 .img-modal-close {
-  position: absolute;
-  top: -48px;
-  right: 0;
+  position: static;
   width: 36px;
   height: 36px;
   background: rgba(255, 255, 255, 0.1);
@@ -599,12 +635,68 @@
   color: #ffffff;
 }
 
+.img-modal-viewport::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.img-modal-viewport::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+}
+
+.img-modal-viewport::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.06);
+}
+
 /* 文章中的图片添加可点击提示 */
 .figure img {
   cursor: zoom-in;
   transition: transform 0.2s ease;
 }
 
+.figure-card img {
+  width: 100%;
+  cursor: zoom-in;
+}
+
 .figure:hover img {
   transform: scale(1.01);
+}
+
+.figure-split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 28px 0 12px;
+}
+
+.figure-card {
+  padding: 16px;
+  border: 1px solid #e8e6e3;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.figure-subcaption {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #7a7a7a;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .figure-split {
+    grid-template-columns: 1fr;
+  }
+
+  .img-modal-toolbar {
+    gap: 8px;
+  }
+
+  .img-modal-btn {
+    min-width: 40px;
+    height: 34px;
+  }
 }
