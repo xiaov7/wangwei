@@ -48,8 +48,10 @@ export default defineConfig({
         },
         {
           text: '合规与整改落地',
-          collapsed: true,
-          items: []
+          collapsed: false,
+          items: [
+            { text: '等保整改为什么常常做成过检工程', link: '/posts/compliance-overcheck' }
+          ]
         },
         {
           text: 'AI赋能安全工作',

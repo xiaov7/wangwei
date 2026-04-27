@@ -43,6 +43,12 @@ features:
 ## 最新文章
 
 <div class="post-item">
+  <a href="./posts/compliance-overcheck" class="post-title">等保整改为什么常常做成过检工程</a>
+  <div class="post-meta">合规与整改落地 · 2025-04-27</div>
+  <div class="post-excerpt">从问题分级、责任落实、机制固化到持续复查，拆解等保整改为何常常停留在“通过检查”，却迟迟没有沉淀成真正的安全能力。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/project-manager-role" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
   <div class="post-meta">安全项目管理 · 2025-04-27</div>
   <div class="post-excerpt">从立项、规划、推进、验收到复盘，拆解安全项目经理在网络安全体系建设中的真实职责、关键能力与常见误区。</div>
@@ -58,12 +64,6 @@ features:
   <a href="./posts/vuln-offline" class="post-title">离线环境下的漏洞治理：一个被长期低估的系统性风险</a>
   <div class="post-meta">风险与漏洞闭环 · 2025-04-27</div>
   <div class="post-excerpt">聚焦离线环境下的漏洞全生命周期管理，从发现、分级、派单、整改、复测到关闭，建立可持续运转的闭环机制。</div>
-</div>
-
-<div class="post-item">
-  <a href="./posts/governance-top5" class="post-title">企业网络安全体系建设，最容易忽视的五个顶层设计问题</a>
-  <div class="post-meta">安全治理体系 · 2025-04-27</div>
-  <div class="post-excerpt">从组织、制度、流程、考核、合规五个维度，拆解企业安全治理顶层设计中的五大常见误区与解决路径。</div>
 </div>
 
 ---

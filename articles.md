@@ -49,7 +49,16 @@ outline: false
 
 ---
 
+## 合规与整改落地
+
+<div class="post-item">
+  <a href="./posts/compliance-overcheck" class="post-title">等保整改为什么常常做成过检工程</a>
+  <div class="post-meta">2025-04-27 · 约5200字</div>
+  <div class="post-excerpt">从问题分级、责任落实、机制固化到持续复查，拆解等保整改为何常常停留在“通过检查”，却迟迟没有沉淀成真正的安全能力。</div>
+</div>
+
+---
+
 ## 其他栏目
 
-- **合规与整改落地** —— 栏目概述已上线，文章撰写中
 - **模板与方法论** —— 栏目概述已上线，文章撰写中
