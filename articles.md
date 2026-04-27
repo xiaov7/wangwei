@@ -38,6 +38,12 @@ outline: false
 ## AI赋能安全工作
 
 <div class="post-item">
+  <a href="./posts/ai-reporting" class="post-title">AI如何帮助安全团队提升周报、汇报与整改跟踪效率</a>
+  <div class="post-meta">2025-04-27 · 约5000字</div>
+  <div class="post-excerpt">从周报整理、汇报口径生成到整改跟踪提醒，拆解AI如何在安全团队的日常文字工作中真正发挥提效价值。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/ai-writing" class="post-title">AI写安全方案：能替代多少，不能替代什么</a>
   <div class="post-meta">2025-04-27 · 约5500字</div>
   <div class="post-excerpt">探索人工智能在安全方案编写中的实际应用场景，明确AI的能力边界与人机协作的最佳模式。</div>

@@ -58,6 +58,7 @@ export default defineConfig({
           text: 'AI赋能安全工作',
           collapsed: false,
           items: [
+            { text: 'AI如何帮助安全团队提升周报、汇报与整改跟踪效率', link: '/posts/ai-reporting' },
             { text: 'AI写安全方案', link: '/posts/ai-writing' }
           ]
         },

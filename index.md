@@ -43,6 +43,12 @@ features:
 ## 最新文章
 
 <div class="post-item">
+  <a href="./posts/ai-reporting" class="post-title">AI如何帮助安全团队提升周报、汇报与整改跟踪效率</a>
+  <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
+  <div class="post-excerpt">从周报整理、汇报口径生成到整改跟踪提醒，拆解AI如何在安全团队的日常文字工作中真正发挥提效价值。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/governance-last-mile" class="post-title">企业安全治理为什么总是卡在最后一公里</a>
   <div class="post-meta">安全治理体系 · 2025-04-27</div>
   <div class="post-excerpt">从责任穿透、流程嵌入、指标牵引到复盘机制，拆解安全治理为什么看起来体系完整，落到执行端却总是失速。</div>
@@ -58,12 +64,6 @@ features:
   <a href="./posts/project-manager-role" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
   <div class="post-meta">安全项目管理 · 2025-04-27</div>
   <div class="post-excerpt">从立项、规划、推进、验收到复盘，拆解安全项目经理在网络安全体系建设中的真实职责、关键能力与常见误区。</div>
-</div>
-
-<div class="post-item">
-  <a href="./posts/ai-writing" class="post-title">AI写安全方案：能替代多少，不能替代什么</a>
-  <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
-  <div class="post-excerpt">探索人工智能在安全方案编写中的实际应用场景，明确AI的能力边界与人机协作的最佳模式。</div>
 </div>
 
 ---
