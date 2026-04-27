@@ -43,7 +43,7 @@ function setupImageModal() {
   }
 
   const resetZoom = () => {
-    zoom = 1
+    zoom = 1.08
     updateZoom()
     modalViewport.scrollTo({ top: 0, left: 0 })
   }
@@ -55,11 +55,11 @@ function setupImageModal() {
     modalCaption.textContent = caption?.textContent || img.alt || ''
 
     modalImg.onload = () => {
-      const maxWidth = window.innerWidth * 0.9
-      const maxHeight = window.innerHeight * 0.78
+      const maxWidth = window.innerWidth * 0.96
+      const maxHeight = window.innerHeight * 0.84
       const naturalWidth = modalImg.naturalWidth || maxWidth
       const naturalHeight = modalImg.naturalHeight || maxHeight
-      const scale = Math.min(maxWidth / naturalWidth, maxHeight / naturalHeight, 1)
+      const scale = Math.min(maxWidth / naturalWidth, maxHeight / naturalHeight, 1.35)
       fitWidth = naturalWidth * scale
       resetZoom()
     }
@@ -91,13 +91,13 @@ function setupImageModal() {
     if (target.classList.contains('img-modal-btn')) {
       const action = target.getAttribute('data-action')
       if (action === 'zoom-in') {
-        zoom = Math.min(zoom + 0.25, 3)
-      } else if (action === 'zoom-out') {
-        zoom = Math.max(zoom - 0.25, 0.5)
-      } else if (action === 'reset') {
-        zoom = 1
-      }
-      updateZoom()
+          zoom = Math.min(zoom + 0.3, 5)
+        } else if (action === 'zoom-out') {
+          zoom = Math.max(zoom - 0.25, 0.5)
+        } else if (action === 'reset') {
+          zoom = 1.08
+        }
+        updateZoom()
     }
   })
 
@@ -108,7 +108,7 @@ function setupImageModal() {
         return
       }
       e.preventDefault()
-      zoom = e.deltaY < 0 ? Math.min(zoom + 0.2, 3) : Math.max(zoom - 0.2, 0.5)
+      zoom = e.deltaY < 0 ? Math.min(zoom + 0.25, 5) : Math.max(zoom - 0.2, 0.5)
       updateZoom()
     },
     { passive: false }
@@ -121,7 +121,7 @@ function setupImageModal() {
     if (e.key === 'Escape') {
       closeModal()
     } else if (e.key === '+' || e.key === '=') {
-      zoom = Math.min(zoom + 0.25, 3)
+      zoom = Math.min(zoom + 0.3, 5)
       updateZoom()
     } else if (e.key === '-') {
       zoom = Math.max(zoom - 0.25, 0.5)

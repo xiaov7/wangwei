@@ -142,6 +142,7 @@
 - 高度不超过 600px
 - 优先保留整图的完整结构感，避免为了适配网页而轻易拆图
 - 如果图表信息密度较高，应优先通过点击放大、滚轮缩放和更高清原图来解决，而不是默认拆分
+- 对于左右并列、强对比关系的流程图或机制图，可以合理拆分为两张子图，以减少网页横向压缩感，例如“现状 vs 优化后”“职责分散 vs 统一归口”这类图
 - 只有在整体图经过放大浏览后仍然明显难读时，才考虑补充拆分版作为辅助图，而不是直接替代整图
 - 正式图注优先使用 `图X：……` 的报告式写法，并放在图片上方
 - 所有文章图片必须支持点击放大浏览，并适配深色浏览背景与缩放查看
@@ -218,6 +219,18 @@
   <div class="figure-caption">图 2：整组图的正式图注</div>
   ![图示说明](/images/posts/postX/figure.svg)
 </div>
+
+<div class="figure-split">
+  <div class="figure-card">
+    <div class="figure-subcaption">图 2-1：现状模式</div>
+    ![子图A](/images/posts/postX/a.svg)
+  </div>
+  <div class="figure-card">
+    <div class="figure-subcaption">图 2-2：优化模式</div>
+    ![子图B](/images/posts/postX/b.svg)
+  </div>
+</div>
+<div class="figure-caption">图 2：对比关系的整体主题图注</div>
 ```
 
 ---
@@ -262,6 +275,7 @@
 ### 6.3 图片交互规范
 
 - 正文中所有图表必须放在 `.figure` 容器内，以启用点击放大功能
+- 如果使用对子图分拆展示，则使用 `.figure-split + .figure-card + .figure-subcaption` 组合，并且只用于强对比关系的图
 - 放大弹窗默认提供 `放大 / 缩小 / 还原` 控件，并支持鼠标滚轮缩放
 - 图注需要使用正式报告语气，推荐格式：`图 3：漏洞全生命周期管理流程`
 - 如果一张图需要读者停留超过 3 秒才能看清结构，优先提升原图清晰度与缩放体验，拆分只作为最后手段
