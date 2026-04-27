@@ -220,6 +220,31 @@
   line-height: 1.4;
 }
 
+/* ====== 单一关键数字卡 ====== */
+.single-stat {
+  margin: 24px 0 28px;
+  padding: 28px 32px;
+  background: linear-gradient(135deg, #f8fbff 0%, #eef4fb 100%);
+  border: 1px solid #d9e3ef;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(30, 58, 95, 0.06);
+  text-align: left;
+}
+
+.single-stat-number {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #1e3a5f;
+  margin-bottom: 8px;
+}
+
+.single-stat-label {
+  font-size: 15px;
+  color: #5a5a5a;
+  line-height: 1.6;
+}
+
 /* ====== 检查清单 ====== */
 .checklist {
   margin: 24px 0;
