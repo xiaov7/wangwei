@@ -29,7 +29,8 @@ export default defineConfig({
           text: '安全治理体系',
           collapsed: false,
           items: [
-            { text: '五个顶层设计问题', link: '/posts/governance-top5' }
+            { text: '五个顶层设计问题', link: '/posts/governance-top5' },
+            { text: '为什么总是卡在最后一公里', link: '/posts/governance-last-mile' }
           ]
         },
         {

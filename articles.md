@@ -12,6 +12,12 @@ outline: false
 ## 安全治理体系
 
 <div class="post-item">
+  <a href="./posts/governance-last-mile" class="post-title">企业安全治理为什么总是卡在最后一公里</a>
+  <div class="post-meta">2025-04-27 · 约5000字</div>
+  <div class="post-excerpt">从责任穿透、流程嵌入、指标牵引到复盘机制，拆解安全治理为什么看起来体系完整，落到执行端却总是失速。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/governance-top5" class="post-title">企业网络安全体系建设，最容易忽视的五个顶层设计问题</a>
   <div class="post-meta">2025-04-27 · 约5500字</div>
   <div class="post-excerpt">从组织、制度、流程、考核、合规五个维度，拆解企业安全治理顶层设计中的五大常见误区与解决路径。</div>
