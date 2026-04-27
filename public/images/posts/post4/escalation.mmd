@@ -1,0 +1,19 @@
+flowchart TB
+    A[普通问题\n项目经理协调] --> B{48小时内解决?}
+    B -->|是| C[继续推进]
+    B -->|否| D[升级至部门负责人]
+    D --> E{是否影响里程碑?}
+    E -->|否| F[调整资源后继续推进]
+    E -->|是| G[升级至项目决策层]
+    G --> H[调整目标、资源或范围]
+    H --> I[形成书面决议并执行]
+
+    style A fill:#eef4fb,stroke:#1e3a5f,stroke-width:2px
+    style B fill:#fdf8ee,stroke:#e67e22,stroke-width:2px
+    style C fill:#f0f9f4,stroke:#27ae60,stroke-width:2px
+    style D fill:#fdf2f2,stroke:#c0392b,stroke-width:2px
+    style E fill:#fdf8ee,stroke:#e67e22,stroke-width:2px
+    style F fill:#f0f9f4,stroke:#27ae60,stroke-width:2px
+    style G fill:#fdf2f2,stroke:#c0392b,stroke-width:2px
+    style H fill:#ffffff,stroke:#1e3a5f,stroke-width:2px
+    style I fill:#ffffff,stroke:#1e3a5f,stroke-width:2px

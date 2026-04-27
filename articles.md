@@ -39,8 +39,17 @@ outline: false
 
 ---
 
+## 安全项目管理
+
+<div class="post-item">
+  <a href="./posts/project-manager-role" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
+  <div class="post-meta">2025-04-27 · 约5200字</div>
+  <div class="post-excerpt">从立项、规划、推进、验收到复盘，拆解安全项目经理在网络安全体系建设中的真实职责、关键能力与常见误区。</div>
+</div>
+
+---
+
 ## 其他栏目
 
-- **安全项目管理** —— 栏目概述已上线，文章撰写中
 - **合规与整改落地** —— 栏目概述已上线，文章撰写中
 - **模板与方法论** —— 栏目概述已上线，文章撰写中

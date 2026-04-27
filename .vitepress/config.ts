@@ -41,8 +41,10 @@ export default defineConfig({
         },
         {
           text: '安全项目管理',
-          collapsed: true,
-          items: []
+          collapsed: false,
+          items: [
+            { text: '安全项目经理在网络安全体系建设中到底负责什么', link: '/posts/project-manager-role' }
+          ]
         },
         {
           text: '合规与整改落地',

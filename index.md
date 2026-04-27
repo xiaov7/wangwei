@@ -43,6 +43,12 @@ features:
 ## 最新文章
 
 <div class="post-item">
+  <a href="./posts/project-manager-role" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
+  <div class="post-meta">安全项目管理 · 2025-04-27</div>
+  <div class="post-excerpt">从立项、规划、推进、验收到复盘，拆解安全项目经理在网络安全体系建设中的真实职责、关键能力与常见误区。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/ai-writing" class="post-title">AI写安全方案：能替代多少，不能替代什么</a>
   <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
   <div class="post-excerpt">探索人工智能在安全方案编写中的实际应用场景，明确AI的能力边界与人机协作的最佳模式。</div>
@@ -58,12 +64,6 @@ features:
   <a href="./posts/governance-top5" class="post-title">企业网络安全体系建设，最容易忽视的五个顶层设计问题</a>
   <div class="post-meta">安全治理体系 · 2025-04-27</div>
   <div class="post-excerpt">从组织、制度、流程、考核、合规五个维度，拆解企业安全治理顶层设计中的五大常见误区与解决路径。</div>
-</div>
-
-<div class="post-item">
-  <a href="./project" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
-  <div class="post-meta">安全项目管理 · 即将发布</div>
-  <div class="post-excerpt">安全项目经理的角色，是连接安全目标与业务现实的桥梁。你需要懂安全，但更需要懂怎么把安全工作推进下去。</div>
 </div>
 
 ---
