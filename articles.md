@@ -28,6 +28,12 @@ outline: false
 ## 风险与漏洞闭环
 
 <div class="post-item">
+  <a href="./posts/vuln-closure" class="post-title">漏洞全生命周期管理，真正难的不是发现而是闭环</a>
+  <div class="post-meta">2025-04-27 · 约5000字</div>
+  <div class="post-excerpt">从发现、分级、派单、整改、复测到关闭，拆解漏洞管理为什么常常不是死在技术，而是死在组织闭环。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/vuln-offline" class="post-title">离线环境下的漏洞治理：一个被长期低估的系统性风险</a>
   <div class="post-meta">2025-04-27 · 约6000字</div>
   <div class="post-excerpt">聚焦离线环境下的漏洞全生命周期管理，从发现、分级、派单、整改、复测到关闭，建立可持续运转的闭环机制。</div>

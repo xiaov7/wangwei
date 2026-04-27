@@ -43,6 +43,12 @@ features:
 ## 最新文章
 
 <div class="post-item">
+  <a href="./posts/vuln-closure" class="post-title">漏洞全生命周期管理，真正难的不是发现而是闭环</a>
+  <div class="post-meta">风险与漏洞闭环 · 2025-04-27</div>
+  <div class="post-excerpt">从发现、分级、派单、整改、复测到关闭，拆解漏洞管理为什么常常不是死在技术，而是死在组织闭环。</div>
+</div>
+
+<div class="post-item">
   <a href="./posts/ai-reporting" class="post-title">AI如何帮助安全团队提升周报、汇报与整改跟踪效率</a>
   <div class="post-meta">AI赋能安全工作 · 2025-04-27</div>
   <div class="post-excerpt">从周报整理、汇报口径生成到整改跟踪提醒，拆解AI如何在安全团队的日常文字工作中真正发挥提效价值。</div>
@@ -58,12 +64,6 @@ features:
   <a href="./posts/compliance-overcheck" class="post-title">等保整改为什么常常做成过检工程</a>
   <div class="post-meta">合规与整改落地 · 2025-04-27</div>
   <div class="post-excerpt">从问题分级、责任落实、机制固化到持续复查，拆解等保整改为何常常停留在“通过检查”，却迟迟没有沉淀成真正的安全能力。</div>
-</div>
-
-<div class="post-item">
-  <a href="./posts/project-manager-role" class="post-title">安全项目经理在网络安全体系建设中到底负责什么</a>
-  <div class="post-meta">安全项目管理 · 2025-04-27</div>
-  <div class="post-excerpt">从立项、规划、推进、验收到复盘，拆解安全项目经理在网络安全体系建设中的真实职责、关键能力与常见误区。</div>
 </div>
 
 ---

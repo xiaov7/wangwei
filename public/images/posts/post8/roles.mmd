@@ -1,0 +1,20 @@
+flowchart TB
+    A[安全团队\n发现、分级、督办]
+    B[业务部门\n确认窗口、接受风险]
+    C[技术团队\n实施整改、提交结果]
+    D[运维团队\n上线变更、验证环境]
+    E[管理层\n协调资源、升级拍板]
+    F[闭环机制\n时限、升级、复测、归档]
+
+    A --> F
+    B --> F
+    C --> F
+    D --> F
+    E --> F
+
+    style A fill:#eef4fb,stroke:#1e3a5f,stroke-width:2px
+    style B fill:#fef5e7,stroke:#e67e22,stroke-width:2px
+    style C fill:#f0f9f4,stroke:#27ae60,stroke-width:2px
+    style D fill:#f0f9f4,stroke:#27ae60,stroke-width:2px
+    style E fill:#f8f7f5,stroke:#5a7a8a,stroke-width:2px
+    style F fill:#ffffff,stroke:#1e3a5f,stroke-width:3px

@@ -37,6 +37,7 @@ export default defineConfig({
           text: '风险与漏洞闭环',
           collapsed: false,
           items: [
+            { text: '漏洞全生命周期管理，真正难的不是发现而是闭环', link: '/posts/vuln-closure' },
             { text: '离线环境漏洞治理', link: '/posts/vuln-offline' }
           ]
         },
